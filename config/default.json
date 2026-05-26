@@ -1,0 +1,7 @@
+{
+  "appName": "Porra Mundial 2026",
+  "timezone": "Europe/Madrid",
+  "databaseFile": "database/app-db.json",
+  "seedFile": "database/seed.json",
+  "uploadsDir": "database/uploads"
+}

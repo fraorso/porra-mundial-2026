@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: porra-mundial-2026
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: node backend/server.js
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_EMAIL
+        value: admin@porra.local
+      - key: ADMIN_PASSWORD
+        value: admin123
+      - key: INVITE_USERS
+        value: "20"
+      - key: RESULTS_PROVIDER
+        value: mock

@@ -1,0 +1,2683 @@
+{
+  "metadata": {
+    "title": "XXIII Mundial USA/MEX/CAN 2026",
+    "sourceAdmin": "C:\\Users\\Javier\\Downloads\\ADMIN-Excel-Mundial-2026 (2).xlsx",
+    "sourceUser": "C:\\Users\\Javier\\Downloads\\Excel-Mundial-2026 (2).xlsx",
+    "generatedAt": "2026-05-26T16:32:00.485793",
+    "timezone": "Europe/Madrid",
+    "firstKickoff": "2026-06-11 21:00:00",
+    "maxParticipants": 5
+  },
+  "teams": [
+    {
+      "id": 1,
+      "name": "México",
+      "group": "A",
+      "rank": 1,
+      "flag": "🇩🇪"
+    },
+    {
+      "id": 2,
+      "name": "Sudáfrica",
+      "group": "A",
+      "rank": 2,
+      "flag": "🇸🇦"
+    },
+    {
+      "id": 3,
+      "name": "Corea del Sur",
+      "group": "A",
+      "rank": 3,
+      "flag": "🇩🇿"
+    },
+    {
+      "id": 4,
+      "name": "República Checa",
+      "group": "A",
+      "rank": 4,
+      "flag": "🇦🇷"
+    },
+    {
+      "id": 5,
+      "name": "Canadá",
+      "group": "B",
+      "rank": 1,
+      "flag": "🇦🇺"
+    },
+    {
+      "id": 6,
+      "name": "Bosnia y Herzegovina",
+      "group": "B",
+      "rank": 2,
+      "flag": "🇦🇹"
+    },
+    {
+      "id": 7,
+      "name": "Catar",
+      "group": "B",
+      "rank": 3,
+      "flag": "🇧🇪"
+    },
+    {
+      "id": 8,
+      "name": "Suiza",
+      "group": "B",
+      "rank": 4,
+      "flag": "🇧🇷"
+    },
+    {
+      "id": 9,
+      "name": "Brasil",
+      "group": "C",
+      "rank": 1,
+      "flag": "🇨🇻"
+    },
+    {
+      "id": 10,
+      "name": "Marruecos",
+      "group": "C",
+      "rank": 2,
+      "flag": "🇨🇦"
+    },
+    {
+      "id": 11,
+      "name": "Haití",
+      "group": "C",
+      "rank": 3,
+      "flag": "🇶🇦"
+    },
+    {
+      "id": 12,
+      "name": "Escocia",
+      "group": "C",
+      "rank": 4,
+      "flag": "🇨🇴"
+    },
+    {
+      "id": 13,
+      "name": "Estados Unidos",
+      "group": "D",
+      "rank": 1,
+      "flag": "🇰🇷"
+    },
+    {
+      "id": 14,
+      "name": "Paraguay",
+      "group": "D",
+      "rank": 2,
+      "flag": "🇨🇮"
+    },
+    {
+      "id": 15,
+      "name": "Australia",
+      "group": "D",
+      "rank": 3,
+      "flag": "🇭🇷"
+    },
+    {
+      "id": 16,
+      "name": "Turquía",
+      "group": "D",
+      "rank": 4,
+      "flag": "🇨🇼"
+    },
+    {
+      "id": 17,
+      "name": "Alemania",
+      "group": "E",
+      "rank": 1,
+      "flag": "🇪🇨"
+    },
+    {
+      "id": 18,
+      "name": "Curazao",
+      "group": "E",
+      "rank": 2,
+      "flag": "🇪🇬"
+    },
+    {
+      "id": 19,
+      "name": "Costa de Marfil",
+      "group": "E",
+      "rank": 3,
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    {
+      "id": 20,
+      "name": "Ecuador",
+      "group": "E",
+      "rank": 4,
+      "flag": "🇪🇸"
+    },
+    {
+      "id": 21,
+      "name": "Países Bajos",
+      "group": "F",
+      "rank": 1,
+      "flag": "🇺🇸"
+    },
+    {
+      "id": 22,
+      "name": "Japón",
+      "group": "F",
+      "rank": 2,
+      "flag": "🇫🇷"
+    },
+    {
+      "id": 23,
+      "name": "Suecia",
+      "group": "F",
+      "rank": 3,
+      "flag": "🇬🇭"
+    },
+    {
+      "id": 24,
+      "name": "Túnez",
+      "group": "F",
+      "rank": 4,
+      "flag": "🇭🇹"
+    },
+    {
+      "id": 25,
+      "name": "Bélgica",
+      "group": "G",
+      "rank": 1,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    {
+      "id": 26,
+      "name": "Egipto",
+      "group": "G",
+      "rank": 2,
+      "flag": "🇮🇷"
+    },
+    {
+      "id": 27,
+      "name": "Irán",
+      "group": "G",
+      "rank": 3,
+      "flag": "🇯🇵"
+    },
+    {
+      "id": 28,
+      "name": "Nueva Zelanda",
+      "group": "G",
+      "rank": 4,
+      "flag": "🇯🇴"
+    },
+    {
+      "id": 29,
+      "name": "España",
+      "group": "H",
+      "rank": 1,
+      "flag": "🇲🇦"
+    },
+    {
+      "id": 30,
+      "name": "Cabo Verde",
+      "group": "H",
+      "rank": 2,
+      "flag": "🇲🇽"
+    },
+    {
+      "id": 31,
+      "name": "Arabia Saudita",
+      "group": "H",
+      "rank": 3,
+      "flag": "🇳🇴"
+    },
+    {
+      "id": 32,
+      "name": "Uruguay",
+      "group": "H",
+      "rank": 4,
+      "flag": "🇳🇿"
+    },
+    {
+      "id": 33,
+      "name": "Francia",
+      "group": "I",
+      "rank": 1,
+      "flag": "🇳🇱"
+    },
+    {
+      "id": 34,
+      "name": "Senegal",
+      "group": "I",
+      "rank": 2,
+      "flag": "🇵🇦"
+    },
+    {
+      "id": 35,
+      "name": "Irak",
+      "group": "I",
+      "rank": 3,
+      "flag": "🇵🇾"
+    },
+    {
+      "id": 36,
+      "name": "Noruega",
+      "group": "I",
+      "rank": 4,
+      "flag": "🇵🇹"
+    },
+    {
+      "id": 37,
+      "name": "Argentina",
+      "group": "J",
+      "rank": 1,
+      "flag": "🇸🇳"
+    },
+    {
+      "id": 38,
+      "name": "Argelia",
+      "group": "J",
+      "rank": 2,
+      "flag": "🇿🇦"
+    },
+    {
+      "id": 39,
+      "name": "Austria",
+      "group": "J",
+      "rank": 3,
+      "flag": "🇨🇭"
+    },
+    {
+      "id": 40,
+      "name": "Jordania",
+      "group": "J",
+      "rank": 4,
+      "flag": "🇹🇳"
+    },
+    {
+      "id": 41,
+      "name": "Portugal",
+      "group": "K",
+      "rank": 1,
+      "flag": "🇺🇾"
+    },
+    {
+      "id": 42,
+      "name": "RD Congo",
+      "group": "K",
+      "rank": 2,
+      "flag": "🇺🇿"
+    },
+    {
+      "id": 43,
+      "name": "Uzbekistán",
+      "group": "K",
+      "rank": 3,
+      "flag": "🇨🇩"
+    },
+    {
+      "id": 44,
+      "name": "Colombia",
+      "group": "K",
+      "rank": 4,
+      "flag": "🇮🇶"
+    },
+    {
+      "id": 45,
+      "name": "Inglaterra",
+      "group": "L",
+      "rank": 1,
+      "flag": "🇧🇦"
+    },
+    {
+      "id": 46,
+      "name": "Croacia",
+      "group": "L",
+      "rank": 2,
+      "flag": "🇸🇪"
+    },
+    {
+      "id": 47,
+      "name": "Ghana",
+      "group": "L",
+      "rank": 3,
+      "flag": "🇹🇷"
+    },
+    {
+      "id": 48,
+      "name": "Panamá",
+      "group": "L",
+      "rank": 4,
+      "flag": "🇨🇿"
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "excelRow": 4,
+      "phase": "Fase de grupos",
+      "group": "A",
+      "round": "J1",
+      "homeTeam": "México",
+      "awayTeam": "Sudáfrica",
+      "homeFlag": "🇲🇽",
+      "awayFlag": "🇿🇦",
+      "kickoff": "2026-06-11 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 2,
+      "excelRow": 5,
+      "phase": "Fase de grupos",
+      "group": "A",
+      "round": "J1",
+      "homeTeam": "Corea del Sur",
+      "awayTeam": "República Checa",
+      "homeFlag": "🇰🇷",
+      "awayFlag": "🇨🇿",
+      "kickoff": "2026-06-12 04:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 3,
+      "excelRow": 12,
+      "phase": "Fase de grupos",
+      "group": "A",
+      "round": "J1",
+      "homeTeam": "Canadá",
+      "awayTeam": "Bosnia y Herzegovina",
+      "homeFlag": "🇨🇦",
+      "awayFlag": "🇧🇦",
+      "kickoff": "2026-06-12 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 4,
+      "excelRow": 28,
+      "phase": "Fase de grupos",
+      "group": "A",
+      "round": "J1",
+      "homeTeam": "Estados Unidos",
+      "awayTeam": "Paraguay",
+      "homeFlag": "🇺🇸",
+      "awayFlag": "🇵🇾",
+      "kickoff": "2026-06-13 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 5,
+      "excelRow": 21,
+      "phase": "Fase de grupos",
+      "group": "A",
+      "round": "J1",
+      "homeTeam": "Haití",
+      "awayTeam": "Escocia",
+      "homeFlag": "🇭🇹",
+      "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "kickoff": "2026-06-14 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 6,
+      "excelRow": 29,
+      "phase": "Fase de grupos",
+      "group": "A",
+      "round": "J1",
+      "homeTeam": "Australia",
+      "awayTeam": "Turquía",
+      "homeFlag": "🇦🇺",
+      "awayFlag": "🇹🇷",
+      "kickoff": "2026-06-14 06:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 7,
+      "excelRow": 20,
+      "phase": "Fase de grupos",
+      "group": "B",
+      "round": "J1",
+      "homeTeam": "Brasil",
+      "awayTeam": "Marruecos",
+      "homeFlag": "🇧🇷",
+      "awayFlag": "🇲🇦",
+      "kickoff": "2026-06-14 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 8,
+      "excelRow": 13,
+      "phase": "Fase de grupos",
+      "group": "B",
+      "round": "J1",
+      "homeTeam": "Catar",
+      "awayTeam": "Suiza",
+      "homeFlag": "🇶🇦",
+      "awayFlag": "🇨🇭",
+      "kickoff": "2026-06-13 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 9,
+      "excelRow": 37,
+      "phase": "Fase de grupos",
+      "group": "B",
+      "round": "J1",
+      "homeTeam": "Costa de Marfil",
+      "awayTeam": "Ecuador",
+      "homeFlag": "🇨🇮",
+      "awayFlag": "🇪🇨",
+      "kickoff": "2026-06-15 01:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 10,
+      "excelRow": 36,
+      "phase": "Fase de grupos",
+      "group": "B",
+      "round": "J1",
+      "homeTeam": "Alemania",
+      "awayTeam": "Curazao",
+      "homeFlag": "🇩🇪",
+      "awayFlag": "🇨🇼",
+      "kickoff": "2026-06-14 19:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 11,
+      "excelRow": 44,
+      "phase": "Fase de grupos",
+      "group": "B",
+      "round": "J1",
+      "homeTeam": "Países Bajos",
+      "awayTeam": "Japón",
+      "homeFlag": "🇳🇱",
+      "awayFlag": "🇯🇵",
+      "kickoff": "2026-06-14 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 12,
+      "excelRow": 45,
+      "phase": "Fase de grupos",
+      "group": "B",
+      "round": "J1",
+      "homeTeam": "Suecia",
+      "awayTeam": "Túnez",
+      "homeFlag": "🇸🇪",
+      "awayFlag": "🇹🇳",
+      "kickoff": "2026-06-15 04:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 13,
+      "excelRow": 61,
+      "phase": "Fase de grupos",
+      "group": "C",
+      "round": "J1",
+      "homeTeam": "Arabia Saudita",
+      "awayTeam": "Uruguay",
+      "homeFlag": "🇸🇦",
+      "awayFlag": "🇺🇾",
+      "kickoff": "2026-06-16 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 14,
+      "excelRow": 60,
+      "phase": "Fase de grupos",
+      "group": "C",
+      "round": "J1",
+      "homeTeam": "España",
+      "awayTeam": "Cabo Verde",
+      "homeFlag": "🇪🇸",
+      "awayFlag": "🇨🇻",
+      "kickoff": "2026-06-15 18:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 15,
+      "excelRow": 53,
+      "phase": "Fase de grupos",
+      "group": "C",
+      "round": "J1",
+      "homeTeam": "Irán",
+      "awayTeam": "Nueva Zelanda",
+      "homeFlag": "🇮🇷",
+      "awayFlag": "🇳🇿",
+      "kickoff": "2026-06-16 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 16,
+      "excelRow": 52,
+      "phase": "Fase de grupos",
+      "group": "C",
+      "round": "J1",
+      "homeTeam": "Bélgica",
+      "awayTeam": "Egipto",
+      "homeFlag": "🇧🇪",
+      "awayFlag": "🇪🇬",
+      "kickoff": "2026-06-15 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 17,
+      "excelRow": 68,
+      "phase": "Fase de grupos",
+      "group": "C",
+      "round": "J1",
+      "homeTeam": "Francia",
+      "awayTeam": "Senegal",
+      "homeFlag": "🇫🇷",
+      "awayFlag": "🇸🇳",
+      "kickoff": "2026-06-16 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 18,
+      "excelRow": 69,
+      "phase": "Fase de grupos",
+      "group": "C",
+      "round": "J1",
+      "homeTeam": "Irak",
+      "awayTeam": "Noruega",
+      "homeFlag": "🇮🇶",
+      "awayFlag": "🇳🇴",
+      "kickoff": "2026-06-17 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 19,
+      "excelRow": 76,
+      "phase": "Fase de grupos",
+      "group": "D",
+      "round": "J1",
+      "homeTeam": "Argentina",
+      "awayTeam": "Argelia",
+      "homeFlag": "🇦🇷",
+      "awayFlag": "🇩🇿",
+      "kickoff": "2026-06-17 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 20,
+      "excelRow": 77,
+      "phase": "Fase de grupos",
+      "group": "D",
+      "round": "J1",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordania",
+      "homeFlag": "🇦🇹",
+      "awayFlag": "🇯🇴",
+      "kickoff": "2026-06-17 06:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 21,
+      "excelRow": 93,
+      "phase": "Fase de grupos",
+      "group": "D",
+      "round": "J1",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panamá",
+      "homeFlag": "🇬🇭",
+      "awayFlag": "🇵🇦",
+      "kickoff": "2026-06-18 01:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 22,
+      "excelRow": 92,
+      "phase": "Fase de grupos",
+      "group": "D",
+      "round": "J1",
+      "homeTeam": "Inglaterra",
+      "awayTeam": "Croacia",
+      "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "awayFlag": "🇭🇷",
+      "kickoff": "2026-06-17 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 23,
+      "excelRow": 84,
+      "phase": "Fase de grupos",
+      "group": "D",
+      "round": "J1",
+      "homeTeam": "Portugal",
+      "awayTeam": "RD Congo",
+      "homeFlag": "🇵🇹",
+      "awayFlag": "🇨🇩",
+      "kickoff": "2026-06-17 19:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 24,
+      "excelRow": 85,
+      "phase": "Fase de grupos",
+      "group": "D",
+      "round": "J1",
+      "homeTeam": "Uzbekistán",
+      "awayTeam": "Colombia",
+      "homeFlag": "🇺🇿",
+      "awayFlag": "🇨🇴",
+      "kickoff": "2026-06-18 04:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 25,
+      "excelRow": 6,
+      "phase": "Fase de grupos",
+      "group": "E",
+      "round": "J2",
+      "homeTeam": "República Checa",
+      "awayTeam": "Sudáfrica",
+      "homeFlag": "🇨🇿",
+      "awayFlag": "🇿🇦",
+      "kickoff": "2026-06-18 18:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 26,
+      "excelRow": 14,
+      "phase": "Fase de grupos",
+      "group": "E",
+      "round": "J2",
+      "homeTeam": "Suiza",
+      "awayTeam": "Bosnia y Herzegovina",
+      "homeFlag": "🇨🇭",
+      "awayFlag": "🇧🇦",
+      "kickoff": "2026-06-18 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 27,
+      "excelRow": 15,
+      "phase": "Fase de grupos",
+      "group": "E",
+      "round": "J2",
+      "homeTeam": "Canadá",
+      "awayTeam": "Catar",
+      "homeFlag": "🇨🇦",
+      "awayFlag": "🇶🇦",
+      "kickoff": "2026-06-19 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 28,
+      "excelRow": 7,
+      "phase": "Fase de grupos",
+      "group": "E",
+      "round": "J2",
+      "homeTeam": "México",
+      "awayTeam": "Corea del Sur",
+      "homeFlag": "🇲🇽",
+      "awayFlag": "🇰🇷",
+      "kickoff": "2026-06-19 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 29,
+      "excelRow": 23,
+      "phase": "Fase de grupos",
+      "group": "E",
+      "round": "J2",
+      "homeTeam": "Brasil",
+      "awayTeam": "Haití",
+      "homeFlag": "🇧🇷",
+      "awayFlag": "🇭🇹",
+      "kickoff": "2026-06-20 02:30:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 30,
+      "excelRow": 22,
+      "phase": "Fase de grupos",
+      "group": "E",
+      "round": "J2",
+      "homeTeam": "Escocia",
+      "awayTeam": "Marruecos",
+      "homeFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "awayFlag": "🇲🇦",
+      "kickoff": "2026-06-20 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 31,
+      "excelRow": 31,
+      "phase": "Fase de grupos",
+      "group": "F",
+      "round": "J2",
+      "homeTeam": "Turquía",
+      "awayTeam": "Paraguay",
+      "homeFlag": "🇹🇷",
+      "awayFlag": "🇵🇾",
+      "kickoff": "2026-06-20 05:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 32,
+      "excelRow": 30,
+      "phase": "Fase de grupos",
+      "group": "F",
+      "round": "J2",
+      "homeTeam": "Estados Unidos",
+      "awayTeam": "Australia",
+      "homeFlag": "🇺🇸",
+      "awayFlag": "🇦🇺",
+      "kickoff": "2026-06-19 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 33,
+      "excelRow": 38,
+      "phase": "Fase de grupos",
+      "group": "F",
+      "round": "J2",
+      "homeTeam": "Alemania",
+      "awayTeam": "Costa de Marfil",
+      "homeFlag": "🇩🇪",
+      "awayFlag": "🇨🇮",
+      "kickoff": "2026-06-20 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 34,
+      "excelRow": 39,
+      "phase": "Fase de grupos",
+      "group": "F",
+      "round": "J2",
+      "homeTeam": "Ecuador",
+      "awayTeam": "Curazao",
+      "homeFlag": "🇪🇨",
+      "awayFlag": "🇨🇼",
+      "kickoff": "2026-06-21 02:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 35,
+      "excelRow": 46,
+      "phase": "Fase de grupos",
+      "group": "F",
+      "round": "J2",
+      "homeTeam": "Países Bajos",
+      "awayTeam": "Suecia",
+      "homeFlag": "🇳🇱",
+      "awayFlag": "🇸🇪",
+      "kickoff": "2026-06-20 19:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 36,
+      "excelRow": 47,
+      "phase": "Fase de grupos",
+      "group": "F",
+      "round": "J2",
+      "homeTeam": "Túnez",
+      "awayTeam": "Japón",
+      "homeFlag": "🇹🇳",
+      "awayFlag": "🇯🇵",
+      "kickoff": "2026-06-21 06:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 37,
+      "excelRow": 63,
+      "phase": "Fase de grupos",
+      "group": "G",
+      "round": "J2",
+      "homeTeam": "Uruguay",
+      "awayTeam": "Cabo Verde",
+      "homeFlag": "🇺🇾",
+      "awayFlag": "🇨🇻",
+      "kickoff": "2026-06-22 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 38,
+      "excelRow": 62,
+      "phase": "Fase de grupos",
+      "group": "G",
+      "round": "J2",
+      "homeTeam": "España",
+      "awayTeam": "Arabia Saudita",
+      "homeFlag": "🇪🇸",
+      "awayFlag": "🇸🇦",
+      "kickoff": "2026-06-21 18:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 39,
+      "excelRow": 54,
+      "phase": "Fase de grupos",
+      "group": "G",
+      "round": "J2",
+      "homeTeam": "Bélgica",
+      "awayTeam": "Irán",
+      "homeFlag": "🇧🇪",
+      "awayFlag": "🇮🇷",
+      "kickoff": "2026-06-21 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 40,
+      "excelRow": 55,
+      "phase": "Fase de grupos",
+      "group": "G",
+      "round": "J2",
+      "homeTeam": "Nueva Zelanda",
+      "awayTeam": "Egipto",
+      "homeFlag": "🇳🇿",
+      "awayFlag": "🇪🇬",
+      "kickoff": "2026-06-22 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 41,
+      "excelRow": 71,
+      "phase": "Fase de grupos",
+      "group": "G",
+      "round": "J2",
+      "homeTeam": "Noruega",
+      "awayTeam": "Senegal",
+      "homeFlag": "🇳🇴",
+      "awayFlag": "🇸🇳",
+      "kickoff": "2026-06-23 02:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 42,
+      "excelRow": 70,
+      "phase": "Fase de grupos",
+      "group": "G",
+      "round": "J2",
+      "homeTeam": "Francia",
+      "awayTeam": "Irak",
+      "homeFlag": "🇫🇷",
+      "awayFlag": "🇮🇶",
+      "kickoff": "2026-06-22 23:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 43,
+      "excelRow": 78,
+      "phase": "Fase de grupos",
+      "group": "H",
+      "round": "J2",
+      "homeTeam": "Argentina",
+      "awayTeam": "Austria",
+      "homeFlag": "🇦🇷",
+      "awayFlag": "🇦🇹",
+      "kickoff": "2026-06-22 19:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 44,
+      "excelRow": 79,
+      "phase": "Fase de grupos",
+      "group": "H",
+      "round": "J2",
+      "homeTeam": "Jordania",
+      "awayTeam": "Argelia",
+      "homeFlag": "🇯🇴",
+      "awayFlag": "🇩🇿",
+      "kickoff": "2026-06-23 05:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 45,
+      "excelRow": 94,
+      "phase": "Fase de grupos",
+      "group": "H",
+      "round": "J2",
+      "homeTeam": "Inglaterra",
+      "awayTeam": "Ghana",
+      "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "awayFlag": "🇬🇭",
+      "kickoff": "2026-06-23 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 46,
+      "excelRow": 95,
+      "phase": "Fase de grupos",
+      "group": "H",
+      "round": "J2",
+      "homeTeam": "Panamá",
+      "awayTeam": "Croacia",
+      "homeFlag": "🇵🇦",
+      "awayFlag": "🇭🇷",
+      "kickoff": "2026-06-24 01:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 47,
+      "excelRow": 86,
+      "phase": "Fase de grupos",
+      "group": "H",
+      "round": "J2",
+      "homeTeam": "Portugal",
+      "awayTeam": "Uzbekistán",
+      "homeFlag": "🇵🇹",
+      "awayFlag": "🇺🇿",
+      "kickoff": "2026-06-23 19:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 48,
+      "excelRow": 87,
+      "phase": "Fase de grupos",
+      "group": "H",
+      "round": "J2",
+      "homeTeam": "Colombia",
+      "awayTeam": "RD Congo",
+      "homeFlag": "🇨🇴",
+      "awayFlag": "🇨🇩",
+      "kickoff": "2026-06-24 04:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 49,
+      "excelRow": 24,
+      "phase": "Fase de grupos",
+      "group": "I",
+      "round": "J3",
+      "homeTeam": "Escocia",
+      "awayTeam": "Brasil",
+      "homeFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "awayFlag": "🇧🇷",
+      "kickoff": "2026-06-25 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 50,
+      "excelRow": 25,
+      "phase": "Fase de grupos",
+      "group": "I",
+      "round": "J3",
+      "homeTeam": "Marruecos",
+      "awayTeam": "Haití",
+      "homeFlag": "🇲🇦",
+      "awayFlag": "🇭🇹",
+      "kickoff": "2026-06-25 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 51,
+      "excelRow": 16,
+      "phase": "Fase de grupos",
+      "group": "I",
+      "round": "J3",
+      "homeTeam": "Suiza",
+      "awayTeam": "Canadá",
+      "homeFlag": "🇨🇭",
+      "awayFlag": "🇨🇦",
+      "kickoff": "2026-06-24 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 52,
+      "excelRow": 17,
+      "phase": "Fase de grupos",
+      "group": "I",
+      "round": "J3",
+      "homeTeam": "Bosnia y Herzegovina",
+      "awayTeam": "Catar",
+      "homeFlag": "🇧🇦",
+      "awayFlag": "🇶🇦",
+      "kickoff": "2026-06-24 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 53,
+      "excelRow": 8,
+      "phase": "Fase de grupos",
+      "group": "I",
+      "round": "J3",
+      "homeTeam": "República Checa",
+      "awayTeam": "México",
+      "homeFlag": "🇨🇿",
+      "awayFlag": "🇲🇽",
+      "kickoff": "2026-06-25 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 54,
+      "excelRow": 9,
+      "phase": "Fase de grupos",
+      "group": "I",
+      "round": "J3",
+      "homeTeam": "Sudáfrica",
+      "awayTeam": "Corea del Sur",
+      "homeFlag": "🇿🇦",
+      "awayFlag": "🇰🇷",
+      "kickoff": "2026-06-25 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 55,
+      "excelRow": 40,
+      "phase": "Fase de grupos",
+      "group": "J",
+      "round": "J3",
+      "homeTeam": "Curazao",
+      "awayTeam": "Costa de Marfil",
+      "homeFlag": "🇨🇼",
+      "awayFlag": "🇨🇮",
+      "kickoff": "2026-06-25 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 56,
+      "excelRow": 41,
+      "phase": "Fase de grupos",
+      "group": "J",
+      "round": "J3",
+      "homeTeam": "Ecuador",
+      "awayTeam": "Alemania",
+      "homeFlag": "🇪🇨",
+      "awayFlag": "🇩🇪",
+      "kickoff": "2026-06-25 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 57,
+      "excelRow": 48,
+      "phase": "Fase de grupos",
+      "group": "J",
+      "round": "J3",
+      "homeTeam": "Japón",
+      "awayTeam": "Suecia",
+      "homeFlag": "🇯🇵",
+      "awayFlag": "🇸🇪",
+      "kickoff": "2026-06-26 01:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 58,
+      "excelRow": 49,
+      "phase": "Fase de grupos",
+      "group": "J",
+      "round": "J3",
+      "homeTeam": "Túnez",
+      "awayTeam": "Países Bajos",
+      "homeFlag": "🇹🇳",
+      "awayFlag": "🇳🇱",
+      "kickoff": "2026-06-26 01:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 59,
+      "excelRow": 32,
+      "phase": "Fase de grupos",
+      "group": "J",
+      "round": "J3",
+      "homeTeam": "Turquía",
+      "awayTeam": "Estados Unidos",
+      "homeFlag": "🇹🇷",
+      "awayFlag": "🇺🇸",
+      "kickoff": "2026-06-26 04:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 60,
+      "excelRow": 33,
+      "phase": "Fase de grupos",
+      "group": "J",
+      "round": "J3",
+      "homeTeam": "Paraguay",
+      "awayTeam": "Australia",
+      "homeFlag": "🇵🇾",
+      "awayFlag": "🇦🇺",
+      "kickoff": "2026-06-26 04:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 61,
+      "excelRow": 72,
+      "phase": "Fase de grupos",
+      "group": "K",
+      "round": "J3",
+      "homeTeam": "Noruega",
+      "awayTeam": "Francia",
+      "homeFlag": "🇳🇴",
+      "awayFlag": "🇫🇷",
+      "kickoff": "2026-06-26 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 62,
+      "excelRow": 73,
+      "phase": "Fase de grupos",
+      "group": "K",
+      "round": "J3",
+      "homeTeam": "Senegal",
+      "awayTeam": "Irak",
+      "homeFlag": "🇸🇳",
+      "awayFlag": "🇮🇶",
+      "kickoff": "2026-06-26 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 63,
+      "excelRow": 56,
+      "phase": "Fase de grupos",
+      "group": "K",
+      "round": "J3",
+      "homeTeam": "Egipto",
+      "awayTeam": "Irán",
+      "homeFlag": "🇪🇬",
+      "awayFlag": "🇮🇷",
+      "kickoff": "2026-06-27 05:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 64,
+      "excelRow": 57,
+      "phase": "Fase de grupos",
+      "group": "K",
+      "round": "J3",
+      "homeTeam": "Nueva Zelanda",
+      "awayTeam": "Bélgica",
+      "homeFlag": "🇳🇿",
+      "awayFlag": "🇧🇪",
+      "kickoff": "2026-06-27 05:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 65,
+      "excelRow": 64,
+      "phase": "Fase de grupos",
+      "group": "K",
+      "round": "J3",
+      "homeTeam": "Cabo Verde",
+      "awayTeam": "Arabia Saudita",
+      "homeFlag": "🇨🇻",
+      "awayFlag": "🇸🇦",
+      "kickoff": "2026-06-27 02:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 66,
+      "excelRow": 65,
+      "phase": "Fase de grupos",
+      "group": "K",
+      "round": "J3",
+      "homeTeam": "Uruguay",
+      "awayTeam": "España",
+      "homeFlag": "🇺🇾",
+      "awayFlag": "🇪🇸",
+      "kickoff": "2026-06-27 02:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 67,
+      "excelRow": 96,
+      "phase": "Fase de grupos",
+      "group": "L",
+      "round": "J3",
+      "homeTeam": "Panamá",
+      "awayTeam": "Inglaterra",
+      "homeFlag": "🇵🇦",
+      "awayFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "kickoff": "2026-06-27 23:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 68,
+      "excelRow": 97,
+      "phase": "Fase de grupos",
+      "group": "L",
+      "round": "J3",
+      "homeTeam": "Croacia",
+      "awayTeam": "Ghana",
+      "homeFlag": "🇭🇷",
+      "awayFlag": "🇬🇭",
+      "kickoff": "2026-06-27 23:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 69,
+      "excelRow": 80,
+      "phase": "Fase de grupos",
+      "group": "L",
+      "round": "J3",
+      "homeTeam": "Argelia",
+      "awayTeam": "Austria",
+      "homeFlag": "🇩🇿",
+      "awayFlag": "🇦🇹",
+      "kickoff": "2026-06-28 04:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 70,
+      "excelRow": 81,
+      "phase": "Fase de grupos",
+      "group": "L",
+      "round": "J3",
+      "homeTeam": "Jordania",
+      "awayTeam": "Argentina",
+      "homeFlag": "🇯🇴",
+      "awayFlag": "🇦🇷",
+      "kickoff": "2026-06-28 04:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 71,
+      "excelRow": 88,
+      "phase": "Fase de grupos",
+      "group": "L",
+      "round": "J3",
+      "homeTeam": "Colombia",
+      "awayTeam": "Portugal",
+      "homeFlag": "🇨🇴",
+      "awayFlag": "🇵🇹",
+      "kickoff": "2026-06-28 01:30:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 72,
+      "excelRow": 89,
+      "phase": "Fase de grupos",
+      "group": "L",
+      "round": "J3",
+      "homeTeam": "RD Congo",
+      "awayTeam": "Uzbekistán",
+      "homeFlag": "🇨🇩",
+      "awayFlag": "🇺🇿",
+      "kickoff": "2026-06-28 01:30:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 73,
+      "excelRow": 101,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "73",
+      "homeTeam": "2A",
+      "awayTeam": "2B",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-06-28 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 74,
+      "excelRow": 103,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "74",
+      "homeTeam": "1E",
+      "awayTeam": "3ABCDF",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-06-29 22:30:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 75,
+      "excelRow": 104,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "75",
+      "homeTeam": "1F",
+      "awayTeam": "2C",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-06-30 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 76,
+      "excelRow": 102,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "76",
+      "homeTeam": "1C",
+      "awayTeam": "2F",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-06-29 19:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 77,
+      "excelRow": 106,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "77",
+      "homeTeam": "1I",
+      "awayTeam": "3CDFGH",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-06-30 23:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 78,
+      "excelRow": 105,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "78",
+      "homeTeam": "2E",
+      "awayTeam": "2I",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-06-30 19:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 79,
+      "excelRow": 107,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "79",
+      "homeTeam": "1A",
+      "awayTeam": "3CEFHI",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-01 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 80,
+      "excelRow": 108,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "80",
+      "homeTeam": "1L",
+      "awayTeam": "3EHIJK",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-01 18:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 81,
+      "excelRow": 110,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "81",
+      "homeTeam": "1D",
+      "awayTeam": "3BEFIJ",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-02 02:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 82,
+      "excelRow": 109,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "82",
+      "homeTeam": "1G",
+      "awayTeam": "3AEHIJ",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-01 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 83,
+      "excelRow": 112,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "83",
+      "homeTeam": "2K",
+      "awayTeam": "2L",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-03 01:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 84,
+      "excelRow": 111,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "84",
+      "homeTeam": "1H",
+      "awayTeam": "2J",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-02 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 85,
+      "excelRow": 113,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "85",
+      "homeTeam": "1B",
+      "awayTeam": "3EFGIJ",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-03 05:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 86,
+      "excelRow": 115,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "86",
+      "homeTeam": "1J",
+      "awayTeam": "2H",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-04 00:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 87,
+      "excelRow": 116,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "87",
+      "homeTeam": "1K",
+      "awayTeam": "3DEIJL",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-04 03:30:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 88,
+      "excelRow": 114,
+      "phase": "Dieciseisavos",
+      "group": null,
+      "round": "88",
+      "homeTeam": "2D",
+      "awayTeam": "2G",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-03 20:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 89,
+      "excelRow": 121,
+      "phase": "Octavos",
+      "group": null,
+      "round": "89",
+      "homeTeam": "W74",
+      "awayTeam": "W77",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-04 23:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 90,
+      "excelRow": 120,
+      "phase": "Octavos",
+      "group": null,
+      "round": "90",
+      "homeTeam": "W73",
+      "awayTeam": "W75",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-04 19:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 91,
+      "excelRow": 122,
+      "phase": "Octavos",
+      "group": null,
+      "round": "91",
+      "homeTeam": "W76",
+      "awayTeam": "W78",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-05 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 92,
+      "excelRow": 123,
+      "phase": "Octavos",
+      "group": null,
+      "round": "92",
+      "homeTeam": "W79",
+      "awayTeam": "W80",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-06 02:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 93,
+      "excelRow": 124,
+      "phase": "Octavos",
+      "group": null,
+      "round": "93",
+      "homeTeam": "W83",
+      "awayTeam": "W84",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-06 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 94,
+      "excelRow": 125,
+      "phase": "Octavos",
+      "group": null,
+      "round": "94",
+      "homeTeam": "W81",
+      "awayTeam": "W82",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-07 02:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 95,
+      "excelRow": 126,
+      "phase": "Octavos",
+      "group": null,
+      "round": "95",
+      "homeTeam": "W86",
+      "awayTeam": "W88",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-07 18:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 96,
+      "excelRow": 127,
+      "phase": "Octavos",
+      "group": null,
+      "round": "96",
+      "homeTeam": "W85",
+      "awayTeam": "W87",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-07 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 97,
+      "excelRow": 131,
+      "phase": "Cuartos",
+      "group": null,
+      "round": "97",
+      "homeTeam": "W89",
+      "awayTeam": "W90",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-09 22:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 98,
+      "excelRow": 132,
+      "phase": "Cuartos",
+      "group": null,
+      "round": "98",
+      "homeTeam": "W93",
+      "awayTeam": "W94",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-10 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 99,
+      "excelRow": 133,
+      "phase": "Cuartos",
+      "group": null,
+      "round": "99",
+      "homeTeam": "W91",
+      "awayTeam": "W92",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-11 23:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 100,
+      "excelRow": 134,
+      "phase": "Cuartos",
+      "group": null,
+      "round": "100",
+      "homeTeam": "W95",
+      "awayTeam": "W96",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-12 03:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 101,
+      "excelRow": 138,
+      "phase": "Semifinales",
+      "group": null,
+      "round": "101",
+      "homeTeam": "W97",
+      "awayTeam": "W98",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-14 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 102,
+      "excelRow": 139,
+      "phase": "Semifinales",
+      "group": null,
+      "round": "102",
+      "homeTeam": "W99",
+      "awayTeam": "W100",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-15 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 103,
+      "excelRow": 143,
+      "phase": "3-4 & Final",
+      "group": null,
+      "round": "103",
+      "homeTeam": "L101",
+      "awayTeam": "L102",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-18 23:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": 104,
+      "excelRow": 147,
+      "phase": "3-4 & Final",
+      "group": null,
+      "round": "104",
+      "homeTeam": "W101",
+      "awayTeam": "W102",
+      "homeFlag": "",
+      "awayFlag": "",
+      "kickoff": "2026-07-19 21:00:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null
+    }
+  ],
+  "scoringRules": [
+    {
+      "key": "regla_click_para_ver_la_explicaci_n",
+      "label": "Regla* (Click para ver la explicación)",
+      "points": 0,
+      "excelCell": "ADMIN!D7"
+    },
+    {
+      "key": "fase_de_grupos_signo_1x2_local_empate_visitante",
+      "label": "FASE DE GRUPOS - Signo 1X2 (local, empate, visitante)",
+      "points": 0,
+      "excelCell": "ADMIN!D8"
+    },
+    {
+      "key": "fase_de_grupos_diferencia_distancia_de_goles_con_1x2_acertado",
+      "label": "FASE DE GRUPOS - Diferencia/Distancia de goles (Con 1X2 acertado)**",
+      "points": 0,
+      "excelCell": "ADMIN!D9"
+    },
+    {
+      "key": "fase_de_grupos_resultado_exacto",
+      "label": "FASE DE GRUPOS - Resultado exacto",
+      "points": 0,
+      "excelCell": "ADMIN!D10"
+    },
+    {
+      "key": "fase_de_grupos_posici_n_exacta_1",
+      "label": "FASE DE GRUPOS - Posición exacta (1º)",
+      "points": 0,
+      "excelCell": "ADMIN!D11"
+    },
+    {
+      "key": "fase_de_grupos_posici_n_exacta_2",
+      "label": "FASE DE GRUPOS - Posición exacta (2º)",
+      "points": 0,
+      "excelCell": "ADMIN!D12"
+    },
+    {
+      "key": "fase_de_grupos_posici_n_exacta_3",
+      "label": "FASE DE GRUPOS - Posición exacta (3º)",
+      "points": 0,
+      "excelCell": "ADMIN!D13"
+    },
+    {
+      "key": "fase_de_grupos_posici_n_exacta_4",
+      "label": "FASE DE GRUPOS - Posición exacta (4º)",
+      "points": 0,
+      "excelCell": "ADMIN!D14"
+    },
+    {
+      "key": "equipo_clasificado_para_dieciseisavos",
+      "label": "Equipo clasificado para DIECISEISAVOS",
+      "points": 0,
+      "excelCell": "ADMIN!D15"
+    },
+    {
+      "key": "dieciseisavos_signo_1x2_local_empate_visitante",
+      "label": "DIECISEISAVOS - Signo 1X2 (local, empate, visitante)",
+      "points": 0,
+      "excelCell": "ADMIN!D16"
+    },
+    {
+      "key": "dieciseisavos_diferencia_distancia_de_goles_con_1x2_acertado",
+      "label": "DIECISEISAVOS - Diferencia/Distancia de goles (Con 1X2 acertado)**",
+      "points": 0,
+      "excelCell": "ADMIN!D17"
+    },
+    {
+      "key": "dieciseisavos_resultado_exacto",
+      "label": "DIECISEISAVOS - Resultado exacto",
+      "points": 0,
+      "excelCell": "ADMIN!D18"
+    },
+    {
+      "key": "equipo_clasificado_para_octavos",
+      "label": "Equipo clasificado para OCTAVOS",
+      "points": 0,
+      "excelCell": "ADMIN!D19"
+    },
+    {
+      "key": "octavos_signo_1x2_local_empate_visitante",
+      "label": "OCTAVOS - Signo 1X2  (local, empate, visitante)",
+      "points": 0,
+      "excelCell": "ADMIN!D20"
+    },
+    {
+      "key": "octavos_diferencia_distancia_de_goles_con_1x2_acertado",
+      "label": "OCTAVOS -Diferencia/Distancia de goles (Con 1X2 acertado)**",
+      "points": 0,
+      "excelCell": "ADMIN!D21"
+    },
+    {
+      "key": "octavos_resultado_exacto",
+      "label": "OCTAVOS - Resultado exacto",
+      "points": 0,
+      "excelCell": "ADMIN!D22"
+    },
+    {
+      "key": "equipo_clasificado_para_cuartos",
+      "label": "Equipo clasificado para CUARTOS",
+      "points": 0,
+      "excelCell": "ADMIN!D23"
+    },
+    {
+      "key": "cuartos_signo_1x2_local_empate_visitante",
+      "label": "CUARTOS - Signo 1X2  (local, empate, visitante)",
+      "points": 0,
+      "excelCell": "ADMIN!D24"
+    },
+    {
+      "key": "cuartos_diferencia_distancia_de_goles_con_1x2_acertado",
+      "label": "CUARTOS -Diferencia/Distancia de goles (Con 1X2 acertado)**",
+      "points": 0,
+      "excelCell": "ADMIN!D25"
+    },
+    {
+      "key": "cuartos_resultado_exacto",
+      "label": "CUARTOS - Resultado exacto",
+      "points": 0,
+      "excelCell": "ADMIN!D26"
+    },
+    {
+      "key": "equipo_clasificado_para_semifinales",
+      "label": "Equipo clasificado para SEMIFINALES",
+      "points": 0,
+      "excelCell": "ADMIN!D27"
+    },
+    {
+      "key": "semifinales_signo_1x2_local_empate_visitante",
+      "label": "SEMIFINALES - Signo 1X2  (local, empate, visitante)",
+      "points": 0,
+      "excelCell": "ADMIN!D28"
+    },
+    {
+      "key": "semifinales_diferencia_distancia_de_goles_con_1x2_acertado",
+      "label": "SEMIFINALES -Diferencia/Distancia de goles (Con 1X2 acertado)**",
+      "points": 0,
+      "excelCell": "ADMIN!D29"
+    },
+    {
+      "key": "semifinales_resultado_exacto",
+      "label": "SEMIFINALES - Resultado exacto",
+      "points": 0,
+      "excelCell": "ADMIN!D30"
+    },
+    {
+      "key": "equipo_clasificado_para_3_y_4_puesto",
+      "label": "Equipo clasificado para 3º y 4º puesto",
+      "points": 0,
+      "excelCell": "ADMIN!D31"
+    },
+    {
+      "key": "equipo_clasificado_para_final",
+      "label": "Equipo clasificado para FINAL",
+      "points": 0,
+      "excelCell": "ADMIN!D32"
+    },
+    {
+      "key": "3_y4_puesto_signo_1x2_local_empate_visitante",
+      "label": "3ºy4º PUESTO - Signo 1X2  (local, empate, visitante)",
+      "points": 0,
+      "excelCell": "ADMIN!D33"
+    },
+    {
+      "key": "3_y4_puesto_diferencia_distancia_de_goles_con_1x2_acertado",
+      "label": "3ºy4º PUESTO - Diferencia/Distancia de goles (Con 1X2 acertado)**",
+      "points": 0,
+      "excelCell": "ADMIN!D34"
+    },
+    {
+      "key": "3_y4_puesto_resultado_exacto",
+      "label": "3ºy4º PUESTO - Resultado exacto",
+      "points": 0,
+      "excelCell": "ADMIN!D35"
+    },
+    {
+      "key": "final_signo_1x2_local_empate_visitante",
+      "label": "FINAL - Signo 1X2  (local, empate, visitante)",
+      "points": 0,
+      "excelCell": "ADMIN!D36"
+    },
+    {
+      "key": "final_diferencia_distancia_de_goles_con_1x2_acertado",
+      "label": "FINAL - Diferencia/Distancia de goles (Con 1X2 acertado)**",
+      "points": 0,
+      "excelCell": "ADMIN!D37"
+    },
+    {
+      "key": "final_resultado_exacto",
+      "label": "FINAL - Resultado exacto",
+      "points": 0,
+      "excelCell": "ADMIN!D38"
+    },
+    {
+      "key": "campe_n",
+      "label": "Campeón",
+      "points": 0,
+      "excelCell": "ADMIN!D39"
+    },
+    {
+      "key": "subcampe_n",
+      "label": "Subcampeón",
+      "points": 0,
+      "excelCell": "ADMIN!D40"
+    },
+    {
+      "key": "3_puesto",
+      "label": "3º puesto",
+      "points": 0,
+      "excelCell": "ADMIN!D41"
+    },
+    {
+      "key": "bota_de_oro_m_ximo_goleador",
+      "label": "Bota de Oro  (máximo goleador)",
+      "points": 0,
+      "excelCell": "ADMIN!D42"
+    },
+    {
+      "key": "bota_de_plata_2_m_ximo_goleador",
+      "label": "Bota de Plata (2º máximo goleador)",
+      "points": 0,
+      "excelCell": "ADMIN!D43"
+    },
+    {
+      "key": "bota_de_bronce_3_m_ximo_goleador",
+      "label": "Bota de Bronce (3º máximo goleador)",
+      "points": 0,
+      "excelCell": "ADMIN!D44"
+    },
+    {
+      "key": "bal_n_de_oro_mejor_jugador",
+      "label": "Balón de Oro  (mejor jugador)",
+      "points": 0,
+      "excelCell": "ADMIN!D45"
+    },
+    {
+      "key": "bal_n_de_plata_2_mejor_jugador",
+      "label": "Balón de Plata (2º mejor jugador)",
+      "points": 0,
+      "excelCell": "ADMIN!D46"
+    },
+    {
+      "key": "bal_n_de_bronce_3_mejor_jugador",
+      "label": "Balón de Bronce (3º mejor jugador)",
+      "points": 0,
+      "excelCell": "ADMIN!D47"
+    },
+    {
+      "key": "ajuste_por_desv_o_en_diferencia_distancia_de_goles",
+      "label": "**% Ajuste por desvío en Diferencia/Distancia de goles: ->",
+      "points": 0,
+      "excelCell": "ADMIN!D49"
+    },
+    {
+      "key": "qu_es_esto_y_c_mo_funciona",
+      "label": "**¿Qué es esto y cómo funciona?",
+      "points": 1,
+      "excelCell": "ADMIN!D50"
+    },
+    {
+      "key": "max_fase_de_grupos",
+      "label": "MAX. FASE DE GRUPOS",
+      "points": 0,
+      "excelCell": "ADMIN!D56"
+    },
+    {
+      "key": "max_dieciseisavos_de_final",
+      "label": "MAX. DIECISEISAVOS DE FINAL",
+      "points": 0,
+      "excelCell": "ADMIN!D57"
+    },
+    {
+      "key": "max_octavos_de_final",
+      "label": "MAX. OCTAVOS DE FINAL",
+      "points": 0,
+      "excelCell": "ADMIN!D58"
+    },
+    {
+      "key": "max_cuartos_de_final",
+      "label": "MAX. CUARTOS DE FINAL",
+      "points": 0,
+      "excelCell": "ADMIN!D59"
+    }
+  ],
+  "specialPredictions": [
+    {
+      "id": "special-130",
+      "label": "Dieciseisavofinalista-1",
+      "reference": "2A",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-131",
+      "label": "Dieciseisavofinalista-2",
+      "reference": "1C",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-132",
+      "label": "Dieciseisavofinalista-3",
+      "reference": "1E",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-133",
+      "label": "Dieciseisavofinalista-4",
+      "reference": "1F",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-134",
+      "label": "Dieciseisavofinalista-5",
+      "reference": "2E",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-135",
+      "label": "Dieciseisavofinalista-6",
+      "reference": "1I",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-136",
+      "label": "Dieciseisavofinalista-7",
+      "reference": "1A",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-137",
+      "label": "Dieciseisavofinalista-8",
+      "reference": "1L",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-138",
+      "label": "Dieciseisavofinalista-9",
+      "reference": "1G",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-139",
+      "label": "Dieciseisavofinalista-10",
+      "reference": "1D",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-140",
+      "label": "Dieciseisavofinalista-11",
+      "reference": "1H",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-141",
+      "label": "Dieciseisavofinalista-12",
+      "reference": "2K",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-142",
+      "label": "Dieciseisavofinalista-13",
+      "reference": "1B",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-143",
+      "label": "Dieciseisavofinalista-14",
+      "reference": "2D",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-144",
+      "label": "Dieciseisavofinalista-15",
+      "reference": "1J",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-145",
+      "label": "Dieciseisavofinalista-16",
+      "reference": "1K",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-146",
+      "label": "Dieciseisavofinalista-17",
+      "reference": "2B",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-147",
+      "label": "Dieciseisavofinalista-18",
+      "reference": "2F",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-148",
+      "label": "Dieciseisavofinalista-19",
+      "reference": "3ABCDF",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-149",
+      "label": "Dieciseisavofinalista-20",
+      "reference": "2C",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-150",
+      "label": "Dieciseisavofinalista-21",
+      "reference": "2I",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-151",
+      "label": "Dieciseisavofinalista-22",
+      "reference": "3CDFGH",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-152",
+      "label": "Dieciseisavofinalista-23",
+      "reference": "3CEFHI",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-153",
+      "label": "Dieciseisavofinalista-24",
+      "reference": "3EHIJK",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-154",
+      "label": "Dieciseisavofinalista-25",
+      "reference": "3AEHIJ",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-155",
+      "label": "Dieciseisavofinalista-26",
+      "reference": "3BEFIJ",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-156",
+      "label": "Dieciseisavofinalista-27",
+      "reference": "2J",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-157",
+      "label": "Dieciseisavofinalista-28",
+      "reference": "2L",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-158",
+      "label": "Dieciseisavofinalista-29",
+      "reference": "3EFGIJ",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-159",
+      "label": "Dieciseisavofinalista-30",
+      "reference": "2G",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-160",
+      "label": "Dieciseisavofinalista-31",
+      "reference": "2H",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-161",
+      "label": "Dieciseisavofinalista-32",
+      "reference": "3DEIJL",
+      "phase": "CLASIFICADOS PARA DIECISEISAVOS"
+    },
+    {
+      "id": "special-162",
+      "label": "Equipos 1/16",
+      "reference": "Max: 0",
+      "phase": ""
+    },
+    {
+      "id": "special-164",
+      "label": "2A-2B",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-165",
+      "label": "1C-2F",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-166",
+      "label": "1E-3ABCDF",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-167",
+      "label": "1F-2C",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-168",
+      "label": "2E-2I",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-169",
+      "label": "1I-3CDFGH",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-170",
+      "label": "1A-3CEFHI",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-171",
+      "label": "1L-3EHIJK",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-172",
+      "label": "1G-3AEHIJ",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-173",
+      "label": "1D-3BEFIJ",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-174",
+      "label": "1H-2J",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-175",
+      "label": "2K-2L",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-176",
+      "label": "1B-3EFGIJ",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-177",
+      "label": "2D-2G",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-178",
+      "label": "1J-2H",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-179",
+      "label": "1K-3DEIJL",
+      "reference": "-",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-180",
+      "label": "Partidos 1/16",
+      "reference": "Max: 0",
+      "phase": ""
+    },
+    {
+      "id": "special-182",
+      "label": "Octavofinalista-1",
+      "reference": "W73",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-183",
+      "label": "Octavofinalista-2",
+      "reference": "W74",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-184",
+      "label": "Octavofinalista-3",
+      "reference": "W76",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-185",
+      "label": "Octavofinalista-4",
+      "reference": "W79",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-186",
+      "label": "Octavofinalista-5",
+      "reference": "W83",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-187",
+      "label": "Octavofinalista-6",
+      "reference": "W81",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-188",
+      "label": "Octavofinalista-7",
+      "reference": "W86",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-189",
+      "label": "Octavofinalista-8",
+      "reference": "W85",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-190",
+      "label": "Octavofinalista-9",
+      "reference": "W75",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-191",
+      "label": "Octavofinalista-10",
+      "reference": "W77",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-192",
+      "label": "Octavofinalista-11",
+      "reference": "W78",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-193",
+      "label": "Octavofinalista-12",
+      "reference": "W80",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-194",
+      "label": "Octavofinalista-13",
+      "reference": "W84",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-195",
+      "label": "Octavofinalista-14",
+      "reference": "W82",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-196",
+      "label": "Octavofinalista-15",
+      "reference": "W88",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-197",
+      "label": "Octavofinalista-16",
+      "reference": "W87",
+      "phase": "Dieciseisavos de final"
+    },
+    {
+      "id": "special-198",
+      "label": "Equipos 1/8",
+      "reference": "Max: 0",
+      "phase": ""
+    },
+    {
+      "id": "special-200",
+      "label": "W73-W75",
+      "reference": "-",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-201",
+      "label": "W74-W77",
+      "reference": "-",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-202",
+      "label": "W76-W78",
+      "reference": "-",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-203",
+      "label": "W79-W80",
+      "reference": "-",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-204",
+      "label": "W83-W84",
+      "reference": "-",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-205",
+      "label": "W81-W82",
+      "reference": "-",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-206",
+      "label": "W86-W88",
+      "reference": "-",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-207",
+      "label": "W85-W87",
+      "reference": "-",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-208",
+      "label": "Partidos 1/8",
+      "reference": "Max: 0",
+      "phase": ""
+    },
+    {
+      "id": "special-210",
+      "label": "Cuartofinalista-1",
+      "reference": "W89",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-211",
+      "label": "Cuartofinalista-2",
+      "reference": "W93",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-212",
+      "label": "Cuartofinalista-3",
+      "reference": "W91",
+      "phase": "Octavos de final"
+    },
+    {
+      "id": "special-213",
+      "label": "Cuartofinalista-4",
+      "reference": "W95",
+      "phase": "Octavos de final"
+    }
+  ],
+  "settings": {
+    "registrationOpen": true,
+    "predictionDeadline": "2026-06-11 21:00:00",
+    "resultsPollMinutes": 15,
+    "allowAdminRuleEditing": true
+  }
+}
