@@ -1,0 +1,108 @@
+Enlace para todos:
+http://localhost:3000
+
+IMPORTANTE:
+Si se lo envias a otras personas, localhost solo funciona en este ordenador. Cuando la app este publicada, cambia http://localhost:3000 por la URL real.
+
+Mensaje base:
+Hola, te invito a la Porra del Mundial 2026. Entra en el enlace, inicia sesion con tu usuario y contraseña, y rellena tus pronosticos antes de que empiece el Mundial.
+
+Usuario 01
+Enlace: http://localhost:3000
+Email: usuario01@porra.local
+Contraseña: Copa2026-01
+
+Usuario 02
+Enlace: http://localhost:3000
+Email: usuario02@porra.local
+Contraseña: Copa2026-02
+
+Usuario 03
+Enlace: http://localhost:3000
+Email: usuario03@porra.local
+Contraseña: Copa2026-03
+
+Usuario 04
+Enlace: http://localhost:3000
+Email: usuario04@porra.local
+Contraseña: Copa2026-04
+
+Usuario 05
+Enlace: http://localhost:3000
+Email: usuario05@porra.local
+Contraseña: Copa2026-05
+
+Usuario 06
+Enlace: http://localhost:3000
+Email: usuario06@porra.local
+Contraseña: Copa2026-06
+
+Usuario 07
+Enlace: http://localhost:3000
+Email: usuario07@porra.local
+Contraseña: Copa2026-07
+
+Usuario 08
+Enlace: http://localhost:3000
+Email: usuario08@porra.local
+Contraseña: Copa2026-08
+
+Usuario 09
+Enlace: http://localhost:3000
+Email: usuario09@porra.local
+Contraseña: Copa2026-09
+
+Usuario 10
+Enlace: http://localhost:3000
+Email: usuario10@porra.local
+Contraseña: Copa2026-10
+
+Usuario 11
+Enlace: http://localhost:3000
+Email: usuario11@porra.local
+Contraseña: Copa2026-11
+
+Usuario 12
+Enlace: http://localhost:3000
+Email: usuario12@porra.local
+Contraseña: Copa2026-12
+
+Usuario 13
+Enlace: http://localhost:3000
+Email: usuario13@porra.local
+Contraseña: Copa2026-13
+
+Usuario 14
+Enlace: http://localhost:3000
+Email: usuario14@porra.local
+Contraseña: Copa2026-14
+
+Usuario 15
+Enlace: http://localhost:3000
+Email: usuario15@porra.local
+Contraseña: Copa2026-15
+
+Usuario 16
+Enlace: http://localhost:3000
+Email: usuario16@porra.local
+Contraseña: Copa2026-16
+
+Usuario 17
+Enlace: http://localhost:3000
+Email: usuario17@porra.local
+Contraseña: Copa2026-17
+
+Usuario 18
+Enlace: http://localhost:3000
+Email: usuario18@porra.local
+Contraseña: Copa2026-18
+
+Usuario 19
+Enlace: http://localhost:3000
+Email: usuario19@porra.local
+Contraseña: Copa2026-19
+
+Usuario 20
+Enlace: http://localhost:3000
+Email: usuario20@porra.local
+Contraseña: Copa2026-20
