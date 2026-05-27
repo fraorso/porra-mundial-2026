@@ -148,9 +148,34 @@ function adminHtml() {
         <input id="userExcel" type="file" accept=".xlsx">
         <button class="primary" data-action="uploadExcel">Importar</button>
       </div>
+      <div class="card invite-card"><h3>Invitaciones</h3><p class="muted">Comparte una credencial por persona. El enlace usa la URL actual de la app.</p>${inviteRows()}</div>
       <div class="card"><h3>Reglas de puntuacion</h3>${state.data.scoringRules.map((r) => `<label>${r.label}<input type="number" data-rule="${r.key}" value="${r.points}"></label>`).join('')}</div>
       <div class="card"><h3>Logs</h3>${state.data.logs.map((l) => `<p class="log">${fmt(l.createdAt)} ${l.type}: ${l.message}</p>`).join('')}</div>
     </div>`;
+}
+
+function inviteRows() {
+  return Array.from({ length: 20 }, (_, index) => {
+    const n = String(index + 1).padStart(2, '0');
+    const email = `usuario${n}@porra.local`;
+    const password = `Copa2026-${n}`;
+    const message = inviteMessage(email, password);
+    return `<div class="invite-row">
+      <div><b>Usuario ${n}</b><p class="muted">${email} / ${password}</p></div>
+      <div class="actions">
+        <button class="ghost" data-copy="${escapeAttr(message)}">Copiar</button>
+        <a class="primary" target="_blank" rel="noreferrer" href="https://wa.me/?text=${encodeURIComponent(message)}">WhatsApp</a>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function inviteMessage(email, password) {
+  return `Hola! Te invito a la Porra del Mundial 2026.\n\nEntra aqui:\n${location.origin}\n\nUsuario:\n${email}\n\nContrasena:\n${password}`;
+}
+
+function escapeAttr(value) {
+  return String(value).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 }
 
 function renderAuth(error = '') {
@@ -177,6 +202,11 @@ function bind() {
   document.querySelectorAll('[data-rule]').forEach((el) => el.addEventListener('change', async () => {
     state.data = await api(`/api/admin/rules/${el.dataset.rule}`, { method: 'PATCH', body: JSON.stringify({ points: Number(el.value) }) });
     render();
+  }));
+  document.querySelectorAll('[data-copy]').forEach((el) => el.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(el.dataset.copy);
+    el.textContent = 'Copiado';
+    setTimeout(() => { el.textContent = 'Copiar'; }, 1200);
   }));
   document.querySelectorAll('[data-action]').forEach((el) => el.addEventListener('click', handleAction));
 }
