@@ -158,8 +158,8 @@ function renderAuth(error = '') {
     <div class="brand"><div class="brand-mark">26</div><div><h1>Porra Mundial 2026</h1><p>Accede para jugar o administrar</p></div></div>
     ${error ? `<p class="danger">${error}</p>` : ''}
     <input id="name" placeholder="Nombre" style="${state.authMode === 'login' ? 'display:none' : ''}">
-    <input id="email" placeholder="Email" value="${state.authMode === 'login' ? 'admin@porra.local' : ''}">
-    <input id="password" type="password" placeholder="Password" value="${state.authMode === 'login' ? 'admin123' : ''}">
+    <input id="email" placeholder="Email" autocomplete="username">
+    <input id="password" type="password" placeholder="Password" autocomplete="current-password">
     <button class="primary" data-action="auth">${state.authMode === 'login' ? 'Entrar' : 'Registrarme'}</button>
     <button class="ghost" data-action="toggleAuth">${state.authMode === 'login' ? 'Crear cuenta' : 'Ya tengo cuenta'}</button>
   </section>`;
