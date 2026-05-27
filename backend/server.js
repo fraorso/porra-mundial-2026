@@ -183,26 +183,37 @@ async function serveStatic(res, pathname) {
 
 async function ensureDatabase() {
   const existing = await fs.readFile(dbFile, 'utf8').catch(() => null);
-  if (existing) return;
-  const seed = JSON.parse(await fs.readFile(seedFile, 'utf8'));
-  const db = {
-    ...seed,
-    users: [{
-      id: 'admin',
-      name: 'Administrador',
-      email: (process.env.ADMIN_EMAIL || 'admin@porra.local').toLowerCase(),
-      role: 'admin',
-      passwordHash: hashPassword(process.env.ADMIN_PASSWORD || 'admin123'),
-      createdAt: new Date().toISOString()
-    }],
-    predictions: [],
-    specialAnswers: [],
-    ranking: [],
-    logs: [log('boot', 'Base de datos inicializada desde seed.json.')]
-  };
+  const db = existing
+    ? JSON.parse(existing)
+    : {
+        ...(JSON.parse(await fs.readFile(seedFile, 'utf8'))),
+        users: [],
+        predictions: [],
+        specialAnswers: [],
+        ranking: [],
+        logs: [log('boot', 'Base de datos inicializada desde seed.json.')]
+      };
+  provisionAdmin(db);
   provisionInviteUsers(db);
   recalculateScores(db);
   await writeDb(db);
+}
+
+function provisionAdmin(db) {
+  const email = (process.env.ADMIN_EMAIL || 'admin@porra.local').toLowerCase();
+  const password = process.env.ADMIN_PASSWORD || 'admin123';
+  const existingAdmin = db.users.find((user) => user.role === 'admin') || db.users.find((user) => user.email === email);
+  const admin = existingAdmin || {
+    id: 'admin',
+    createdAt: new Date().toISOString()
+  };
+  admin.name = 'Administrador';
+  admin.email = email;
+  admin.role = 'admin';
+  admin.passwordHash = hashPassword(password);
+  if (!existingAdmin) db.users.unshift(admin);
+  db.logs ||= [];
+  db.logs.push(log('users', `Admin sincronizado: ${email}.`));
 }
 
 function provisionInviteUsers(db) {
