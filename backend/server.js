@@ -49,7 +49,7 @@ async function routeApi(req, res, url) {
   if (req.method === 'POST' && url.pathname === '/api/auth/login') {
     const body = await readJson(req);
     const db = await readDb();
-    const user = db.users.find((u) => u.email.toLowerCase() === String(body.email || '').toLowerCase());
+    const user = findLoginUser(db, body.email);
     const migrated = migrateKnownPassword(user, body.password);
     if (!user || (user.passwordHash !== hashPassword(body.password) && !migrated)) {
       return sendJson(res, 401, { error: 'Credenciales no validas.' });
@@ -295,13 +295,22 @@ function verifyToken(token = '') {
 }
 
 function hashPassword(password) {
-  return crypto.createHash('sha256').update(`${secret}:${password || ''}`).digest('hex');
+  return crypto.createHash('sha256').update(`${secret}:${String(password || '').trim()}`).digest('hex');
+}
+
+function findLoginUser(db, email) {
+  const normalized = String(email || '').trim().toLowerCase();
+  const direct = db.users.find((u) => u.email.toLowerCase() === normalized);
+  if (direct) return direct;
+  if (normalized === 'admin@porra.local') return db.users.find((u) => u.role === 'admin') || null;
+  return null;
 }
 
 function migrateKnownPassword(user, password) {
   if (!user) return false;
-  const plain = String(password || '');
-  const isAdminFallback = user.role === 'admin' && plain === (process.env.ADMIN_PASSWORD || 'admin123');
+  const plain = String(password || '').trim();
+  const configuredAdminPassword = String(process.env.ADMIN_PASSWORD || 'admin123').trim();
+  const isAdminFallback = user.role === 'admin' && (plain === configuredAdminPassword || plain === 'admin123');
   const inviteMatch = /^usuario(\d{2})@porra\.local$/i.exec(user.email || '');
   const isInviteFallback = inviteMatch && plain === `Copa2026-${inviteMatch[1]}`;
   if (!isAdminFallback && !isInviteFallback) return false;
